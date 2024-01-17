@@ -31,15 +31,18 @@
             </div>
         
             <!-- File and Image upload inputs and labels -->
-            <label for="file-input">📁</label>
+            <!-- <label for="file-input">📁</label>
             <input type="file" id="file-input" hidden onchange="uploadFile()">
         
             <label for="image-input">📷</label>
             <input type="file" id="image-input" hidden onchange="uploadImage()">
-        
+         -->
             <!-- Send button -->
-            <button id="send-button">Enviar</button>
-            <button id="clear-button">Limpar</button>
+              <!-- New button container -->
+    <div class="button-container">
+        <button id="send-button">Enviar</button>
+        <button id="clear-button">Limpar</button>
+    </div>
             <input type="hidden" id="selected-assistant-id" value="{{ selected_assistant_id }}">
         </div>
         
