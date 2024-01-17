@@ -76,13 +76,24 @@ body, html {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.top-bar h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-   
+
+
+.top-bar h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+    color: black;
+    background-color: #83e0dc;
+    padding: 10px 20px; /* Add padding to create the button-like appearance */
+    border-radius: 10px; /* Add round corners */
+    cursor: pointer; /* Add cursor style to indicate interactivity */
+    display: inline-block; /* Ensure the button takes only as much width as needed */
+    text-align: center; /* Center-align the text horizontally */
+    text-decoration: none; /* Remove underlines if any */
 }
 
 .hero img {
